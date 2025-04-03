@@ -1,0 +1,21 @@
+.f-card > h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.counterIcons  i::before{
+    font-size: 50px;
+}
+.advertiseCard {
+    background-color: #f2fbf6;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.advertiseCard:hover{
+   box-shadow: 3px 4px 10px #d0d0d0;
+}
+.advertiseCardIcon::before{
+    font-size: 45px;
+     color: #0a745f;
+}

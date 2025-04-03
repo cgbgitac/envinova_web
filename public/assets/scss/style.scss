@@ -1,0 +1,318 @@
+@import "mixins";
+@import "variables";
+@import "base";
+@import "prefix";
+@import "header";
+@import "banner";
+@import "layout";
+@import "element";
+@import "card";
+@import "service.scss";
+@import "project.scss";
+@import "feedback";
+@import "blog";
+@import "contact.scss";
+@import "footer";
+@import "animation";
+@import "shop";
+@import "vendor";
+@import "custom";
+@import "responsive";
+
+
+// custom code for cgb india 
+
+.squar{
+    border-radius: 4px;
+    background: linear-gradient(227.33deg, #3b4d75 5.45%, rgba(47, 54, 70, 0.36) 95.34%);
+}
+
+.bo-rd{
+    border-radius: 30px;
+}
+
+.shadowimg{
+    box-shadow: 3px 3px 3px 0px #9e9e9e;
+}
+
+.shap-animate{
+    animation: jumpThree 6s infinite linear;
+}
+
+.logo-bg-white{
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    padding: 10px 17px;
+    border-radius: 10px;
+}
+
+.logo-bg-white:hover{
+    box-shadow: 0 0 15px rgb(0 0 0/30%);
+}
+
+.bg-cls{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.map-dots li:after{
+    height: 22px;
+    width: 22px;
+    margin: -5px 0 0 -5px;
+}
+
+.map-dots li:after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin: -4px 0 0 -4px; /* Adjusted margin to center the dot */
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    box-shadow: 0 0 1px 2px $color-one;
+    animation-delay: 1.1s;
+    border-radius: 100%;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1); /* Corrected transform values */
+        opacity: 0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(1.1, 1.1);
+        opacity: 0;
+    }
+}
+
+.map-dots li .line {
+    height: 0;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1s all;
+    overflow: hidden;
+    transition-delay: .7s;
+}
+
+.map-dots li:hover .line {
+    overflow: visible;
+}
+
+.detailTab li {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    padding: 0 25px;
+    transition: .5s all;
+}
+
+.map-dots li {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: $color-one;
+    border-radius: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.map-dots li {
+    height: 12px;
+    width: 12px;
+}
+
+.map-dots li:first-child {
+    top: 27%;
+    left: 19%;
+}
+
+.map-dots li:nth-child(2) {
+    top: 20%;
+    left: 53%;
+}
+
+.map-dots li:nth-child(3) {
+    right: 28%;
+    top: 45%;
+}
+
+.map-dots li:nth-child(4) {
+    right: 38%;
+    top: 41%;
+}
+
+.map-dots li:last-child {
+    bottom: 61%;
+    right: 11%;
+}
+
+.overlayStyle {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    // background: rgba(0,0,0,0.60);
+    background: rgba(255,255,255,0.60);
+  };
+
+  .lim{
+    margin-bottom: 14px !important;
+  }
+
+  .header-change {
+    background: $color-three !important;
+    border: none;
+}
+
+.bgcolor{
+    background: $color-one;
+}
+.bgcolor2{
+    background: $color-two;
+}
+.fontcolor{
+    color: $color-one;
+}
+
+.fontcolorimp{
+    color: $color-one !important;
+}
+
+.paracolor{
+    color: #fff9;
+}
+
+.bg-bottom{
+    background-position: bottom;
+}
+
+.line-2 {
+    background-image: linear-gradient(#62c087, #62c087);
+    width: 72px;
+    height: 2px;
+    margin-right: 2em;
+}
+
+.bg-td {
+    background: #f8f8f8 !important;
+}
+
+thead, tbody, tfoot, tr, td, th {
+    border: none;
+    padding: 0.9rem 0.5rem !important;
+}
+
+.slick-slide > div{
+    margin: 0px;
+}
+
+.theme-main-menu.menu-overlay{
+    background-color: #EDF1EE;
+}
+
+.slick-initialized .slick-slide{
+    padding: 0px 20px;
+}
+
+.whatsapp {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 74px;
+    right: 2px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3sease -in-out;
+}
+
+.solar_hut{
+    background: rgb(0 0 0 / 20%);
+    backdrop-filter: saturate(180%) blur(3px);
+    /* backdrop-filter: blur(10px); */
+    padding: 10px;
+    border-radius: 20px;
+    width: max-content;
+}
+
+.green-boader{
+    border: 2px solid #53bc69;
+}
+
+.your-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background/backgrondsolar.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    opacity: 0.3; /* Adjust as needed */
+    z-index: -1;
+}
+
+.extra-class{
+    border: 1px solid #233650;
+    margin: 10px !important;
+    padding: 10px !important;
+    border-radius: 8px;
+    text-align: center !important;
+}
+
+.bg-color-after{
+    position: relative;
+    z-index: 1;
+}
+.bg-color-after::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(78 183 104 / 96%); /* Change color & opacity as needed */
+    z-index: -1;
+  }
+
+  .card-style-sixteen .icon2 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #f6f6f6 !important;
+    font-weight: 700 !important;
+
+}
+
+.slick-track{
+    display: flex;
+    align-items: center;
+}
+//-----Manish----
+
+.bgnew{
+    background-color: #4faefc;
+}
+.bgnewtwo{
+    background-color: #4beddb;
+}
+
+// .ads{
+//     padding: 6px;
+//     background-color: #1e2947;
+// }
+
