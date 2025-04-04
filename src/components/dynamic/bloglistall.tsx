@@ -64,8 +64,9 @@ const BlogListAll = ({ category }: { category: string }) => {
   );
 
   return (
-    <div className="blog-section-six position-relative mt-150 lg-mt-80 mb-150 lg-mb-80">
+    <div className="blog-section-six position-relative  mb-150 lg-mb-80">
       <div className="container">
+     
         <div className="row gx-xl-5">
           <div className="row">
             {loading ? (

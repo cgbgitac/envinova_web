@@ -36,7 +36,18 @@ const BlogPage = () => {
             style_2={true}
           /> */}
           {/* breadcrumb end */}
-
+          {/* ---product-lisging-info-start--- */}
+          <section className="position-relative lg-mt-80 mt-140">
+            <div className="container">
+              <div className="pb-60 lg-pg-40 pt-30">
+                <h2 className="text-center pb-5">Smart Solar Spaces</h2>
+                <p className="text-center">
+                Transform public areas with self-sustaining <b>Smart Solar Huts</b>, designed for convenience, security, and digital connectivity.
+                </p>
+              </div>
+            </div>
+          </section>
+           {/* ---product-lisging-info-end--- */}
           {/* blog list area start */}
           {/* <BlogListArea /> */}
           <BlogListAll category="Smart Solar Spaces" />
