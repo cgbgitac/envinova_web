@@ -15,11 +15,10 @@ const SubscriptionModel = () => {
                 <p>
                 Access our <b>solar-powered solutions on a flexible subscription basis</b>, perfect for businesses, cafes, and public spaces looking for a hassle-free, cost-effective option.
                 </p>
-              </div>
-           
+              </div> 
               <div className="f-btn ">
                 <Link href={""} className="btn-one">
-                  Click Here{" "}
+                  Click Here
                 </Link>
               </div>
             </div>
