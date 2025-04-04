@@ -45,9 +45,7 @@ const BlogPage = () => {
             <div className="container">
               <h2 className="text-center pb-80 pb-lg-4">Have a Project in Mind? Connect with Us!</h2>
               <p>Interested in our solutions or need a custom solar setup? Whether it&apos;s <b>Smart Solar Huts, Rooftop Systems, or Plug & Play Packs</b>, we&apos;re here to power your vision. From enhancing public spaces to bringing solar energy to homes and businesses, our team is ready to craft the perfect solution for you.</p>
-              <div className="d-flex justify-content-center">
-                <Link href="/" className="extra-class">Contact Us</Link>
-              </div>
+             
             </div>
           </section>
 
