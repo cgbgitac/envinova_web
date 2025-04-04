@@ -14,6 +14,7 @@ import TeamDetailsArea from "@/components/team/team-details-area";
 import HeaderSix from "@/layout/header/header-six";
 import AdvertiseContent from "@/components/advertisement/advertiseContent";
 import BlockFeatureAbout from "@/components/block-feature/block-feature-about";
+import SubscriptionModel from "@/components/advertisement/subscriptionModel";
 
 
 export const metadata: Metadata = {
@@ -40,6 +41,7 @@ const Advertise = () => {
           <AdvertiseContent/>
   <BlockFeatureAbout style_2={true} />
 
+        <SubscriptionModel/>
           {/* <TeamDetailsArea /> */}
           
 
