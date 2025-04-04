@@ -61,7 +61,7 @@ const FeedbackTwo = () => {
                   </div>
                 </div>
                 <blockquote className="text-lg">{f.desc}</blockquote>
-                <div className="bottom-line d-flex align-items-center justify-content-between">
+                {/* <div className="bottom-line d-flex align-items-center justify-content-between">
                   <ul className="style-none d-flex rating">
                     <li>
                       <i className="bi bi-star-fill"></i>
@@ -80,7 +80,7 @@ const FeedbackTwo = () => {
                     </li>
                   </ul>
                   <Image src={quote} alt="icon" className="icon" />
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

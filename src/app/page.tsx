@@ -108,8 +108,9 @@ export default function HomePage() {
 
           <HomeTwoBlogs />
 
+          {/* What Our Clients Say start */} 
           <FeedbackTwo />
-
+          {/* What Our Clients Say end */}
           {/* <BlockFeatureSeven /> */}
           <PortfolioTwo />
           {/* blog item end */}

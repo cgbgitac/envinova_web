@@ -6,13 +6,14 @@ import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 // import FooterThree from "@/layout/footer/footer-three";
 import FooterOne from "@/layout/footer/footer-one";
 import about_bg from "@/assets/images/media/Aboutbanner.png";
-import FancyBannerThree from "@/components/fancy-banner/fancy-banner-three";
-import shape from "@/assets/images/shape/shape_25.svg";
-import TextFeatureOne from "@/components/text-feature/text-feature-one";
-import BlockFeatureOne from "@/components/block-feature/block-feature-one";
-import TextFeatureThree from "@/components/text-feature/text-feature-three";
-import FeedbackOne from "@/components/feedback/feedback-one";
-import PartnersSliderOne from "@/components/partners/partners-slider-one";
+
+// import FancyBannerThree from "@/components/fancy-banner/fancy-banner-three";
+// import shape from "@/assets/images/shape/shape_25.svg";
+// import TextFeatureOne from "@/components/text-feature/text-feature-one";
+// import BlockFeatureOne from "@/components/block-feature/block-feature-one";
+// import TextFeatureThree from "@/components/text-feature/text-feature-three";
+// import FeedbackOne from "@/components/feedback/feedback-one";
+// import PartnersSliderOne from "@/components/partners/partners-slider-one";
 import TeamSectionThree from "@/components/team/team-section-three";
 import HomeFourBlogs from "@/components/blogs/home-4-blogs";
 import NewsletterBanner from "@/components/newsletter/newsletter-banner";
@@ -30,6 +31,8 @@ import LocationTabsData from "@/components/tabs/location-taps";
 import AboutTabsData from "@/components/tabs/about-tap";
 import ProudctFeatureSection from "@/components/block-feature/product-feature";
 import InnovationPartners from "@/components/wishlist/InnovationPartners";
+import SDGS_img from "@/assets/images/img01.jpg";
+import Image from "next/image";
 
 export const metadata = {
   title: "AboutEnvinoa  | Foot Scan with High-Accuracy Sensors",
@@ -71,11 +74,52 @@ const AboutUsPage = () => {
           /> */}
           {/* breadcrumb end */}
           <TextFeatureAbout />
+          <section>
+            <div className="container">
+            <div className="f-card">
+                      <h3>UN SDGS Fulfilled</h3>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
+                        <div className="card-fulfilled">
+                          <Image src={SDGS_img} alt="img" className="img-fluid" />
+                            <h3 className="text-center py-4">Social</h3>
+                        </div>
+                      </div>
+                      <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
+                        <div className="card-fulfilled">
+                          <Image src={SDGS_img} alt="img" className="img-fluid" />
+                            <h3 className="text-center py-4">Economic,</h3>
+                        </div>
+                      </div>
+                      <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
+                        <div className="card-fulfilled">
+                          <Image src={SDGS_img} alt="img" className="img-fluid" />
+                            <h3 className="text-center py-4">Environmental</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="row">
+                    <div className="f-card">
+                      <h3>Security</h3>
+                    </div>
+                    <div className="col-md-6 col-lg-8 col-12 pb-40 pb-lg-30">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, soluta impedit. Quas vel alias suscipit ex ducimus ab modi accusamus eius dolor, amet animi, minus porro libero hic esse voluptates.</p>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
+                    <Image src={SDGS_img} alt="img" className="img-fluid" />
+                    </div>
+                    </div>
+                    
+            </div>
+          </section>
           {/* <TextFeatureHome /> */}
-
+            {/* counter up start */}
           <TextFeatureHome style_2={true} />
-
-          {/* text feature one area start */}
+          {/* counter up end */}
+          
 
           {/* text feature one area end */}
 

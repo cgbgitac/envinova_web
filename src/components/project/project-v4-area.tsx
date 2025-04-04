@@ -29,6 +29,7 @@ const ProjectFourArea = () => {
     setPhotoIndex(i);
     setOpen(true);
   };
+
   return (
     <>
      <ParallaxProvider>
@@ -38,7 +39,8 @@ const ProjectFourArea = () => {
             <div className="row">
               <div className="col-lg-12 wow fadeInLeft">
                 <div className="title-one text-center mb-50 lg-mb-30 md-mb-10 details-meta">
-                  <h2>Who is it for?</h2>
+                  <h2 className="mb-2">Who is it for?</h2>
+                  <p className="pb-40 pb-lg-30 mb-0">Empowering Every Sector with Sustainable Solar Solutions</p>
                 </div>
               </div>
             </div>
@@ -91,8 +93,10 @@ const ProjectFourArea = () => {
                                   {item.title}
                                 </Link> */}
                               </h6>
+                              <p>{item.para}</p>
                               {/* <p>{item.para}</p> */}
                             </div>
+                        
                             {/* <div>
                               <Link
                                 href="/project-details-v1"

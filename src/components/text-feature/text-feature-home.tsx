@@ -131,7 +131,7 @@ const TextFeatureHome = ({ style_2 = false }: { style_2?: boolean }) => {
                   <CounterBlock
                     icon="bi bi-patch-check fa-10x"
                     num={27}
-                    text="K+"
+                    text="+"
                     title="Total Installations"
                     delay="2"
                   />
@@ -144,7 +144,7 @@ const TextFeatureHome = ({ style_2 = false }: { style_2?: boolean }) => {
                    icon="bi bi-person-check-fill"
 
                     num={500}
-                    text="K+"
+                    text="+"
                     title="Total Visitors"
                     // prev_text="$"
                     delay="2"
@@ -158,9 +158,9 @@ const TextFeatureHome = ({ style_2 = false }: { style_2?: boolean }) => {
                   <CounterBlock
                    icon="bi bi-currency-dollar fa-4x"
                     num={600}
-                    text="K+"
+                    text="+"
                     title="Tonnes of CO2 mitigated"
-                    prev_text="$"
+                    prev_text=""
                     delay="2"
                   />
                 </div>
