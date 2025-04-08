@@ -32,6 +32,10 @@ import AboutTabsData from "@/components/tabs/about-tap";
 import ProudctFeatureSection from "@/components/block-feature/product-feature";
 import InnovationPartners from "@/components/wishlist/InnovationPartners";
 import SDGS_img from "@/assets/images/img01.jpg";
+import SDGS_img1 from "@/assets/images/about/social.jpg";
+import SDGS_img2 from "@/assets/images/about/economic.jpg";
+import SDGS_img3 from "@/assets/images/about/enviromental.png";
+import securityImg from "@/assets/images/about/security.jpg";
 import Image from "next/image";
 
 export const metadata = {
@@ -82,19 +86,19 @@ const AboutUsPage = () => {
                     <div className="row">
                       <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
                         <div className="card-fulfilled">
-                          <Image src={SDGS_img} alt="img" className="img-fluid" />
+                          <Image src={SDGS_img1} alt="img" className="img-fluid" />
                             <h3 className="text-center py-4">Social</h3>
                         </div>
                       </div>
                       <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
                         <div className="card-fulfilled">
-                          <Image src={SDGS_img} alt="img" className="img-fluid" />
-                            <h3 className="text-center py-4">Economic,</h3>
+                          <Image src={SDGS_img2} alt="img" className="img-fluid" />
+                            <h3 className="text-center py-4">Economic</h3>
                         </div>
                       </div>
                       <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
                         <div className="card-fulfilled">
-                          <Image src={SDGS_img} alt="img" className="img-fluid" />
+                          <Image src={SDGS_img3} alt="img" className="img-fluid" />
                             <h3 className="text-center py-4">Environmental</h3>
                         </div>
                       </div>
@@ -109,7 +113,7 @@ const AboutUsPage = () => {
                     </div>
 
                     <div className="col-md-6 col-lg-4 col-12 pb-40 pb-lg-30">
-                    <Image src={SDGS_img} alt="img" className="img-fluid" />
+                    <Image src={securityImg} alt="img" className="img-fluid" />
                     </div>
                     </div>
                     

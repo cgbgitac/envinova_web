@@ -16,9 +16,15 @@ type NewsCardProps = {
 };
 
 const NewsWebsiteCard: React.FC<NewsCardProps> = ({ news }) => {
-  const today = new Date();
-const formattedDate = `${today.getDate()}' ${today.toLocaleString('default', { month: 'short' })}`;
+  // console.log(news.date)
+//   const today = new Date();
+// const formattedDate = `${today.getDate()}' ${today.toLocaleString('default', { month: 'short' })}`;
 // console.log(news.date)
+const s_date = new Date(news.date);
+const month = s_date.toLocaleString('en-us', { month: 'short' });
+const year = s_date.getFullYear();
+const formattedDate = `${month} ' ${year}`;
+
   return (
     <article className="blog-meta-two mb-80 lg-mb-50 wow fadeInUp"
     data-wow-delay="0.1s"
@@ -29,7 +35,7 @@ const formattedDate = `${today.getDate()}' ${today.toLocaleString('default', { m
       >
         <Link href={`/projects/${news.link}`} className="stretched-link rounded-5 date tran3s">
           {/* {news.date.split(" ")[0]} {news.date.split(" ")[1]} */}
-          {formattedDate}
+         <span style={{textTransform:'capitalize'}}>{formattedDate}</span> 
         </Link>
       </figure>
       <div className="post-data">

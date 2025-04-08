@@ -25,6 +25,7 @@ const imgStyle = {
 };
 
 const BlogWebsiteCard: React.FC<BlogCardProps> = ({ blog }) => {
+  // console.log(blog.title, "blog00")
   return (
     <>
       {/* <article className="blog-meta-two style-two mb-50 lg-mb-40">
@@ -65,7 +66,7 @@ const BlogWebsiteCard: React.FC<BlogCardProps> = ({ blog }) => {
           </Link>
            <div className="">
            <Link href={`/products/${blog.link}`} className="cart-button">
-            View Now
+           <span style={{textTransform: 'capitalize'}}>{blog.title}</span> 
           </Link>
            </div>
         </div>

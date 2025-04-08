@@ -113,7 +113,7 @@ const PortfolioTwo = () => {
           {/* ---------------------------------Section staring-------------------------------*/}
           <div className="d-flex justify-content-between align-items-center">
             <div className="title-one">
-              <h3 className="color-deep m0 pb-2">The Envinova Journal</h3>
+              <h2 className="color-deep m0 pb-2">The Envinova Journal</h2>
               <p className="text-lg mb-40 lg-mb-10">
                 {" "}
                 Discover how technology and sustainability are shaping the

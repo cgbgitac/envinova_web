@@ -16,12 +16,17 @@ type NewsCardProps = {
 };
 
 const BlogItemTwo: React.FC<NewsCardProps> = ({ news }) => {
+  // console.log(news.date,"news11")
+  const s_date = new Date(news.date);
+  const month = s_date.toLocaleString('en-US', { month: 'short' });
+  const year = s_date.getFullYear();
+  const formattedDate = `${month}' ${year}`;
+
   return (
     <article className="blog-meta-one mt-35 sm-mt-30 wow fadeInUp">
        <div className="post-data">
         <div className="post-info">
-          {/* <span className="fw-500 text-dark">{news.author} -</span>    */}
-          {news.date.split(" ")[0]} {news.date.split(" ")[1]}
+          {formattedDate}
         </div>
         <Link href={`/projects/${news.link}`} className="mt-15">
           <h4 className="tran3s blog-title">{news.title}</h4>

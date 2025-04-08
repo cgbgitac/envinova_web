@@ -58,7 +58,7 @@ const NewsList = () => {
   const limitedArticles = sortedNews.slice(0, 3);
 
   return (
-    <div className="blog-section-one service-details position-relative lg-mt-80 pt-120 lg-pt-80">
+    <div className="blog-section-one service-details position-relative  lg-mt-80 pt-120 lg-pt-80 lg-pb-60 pb-80">
       <div className="container">
         <div className="position-relative">
           <div className="title-one details-meta mb-20 lg-mb-10">

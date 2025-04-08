@@ -30,7 +30,7 @@ const slider_setting = {
 
 const FeedbackTwo = () => {
   return (
-    <div className="feedback-section-two position-relative pt-150 lg-pt-80 pb-80">
+    <div className="feedback-section-two position-relative pt-80 lg-pt-60 pb-80">
       <div className="container">
         <div className="position-relative">
           <div className="row">
@@ -42,8 +42,8 @@ const FeedbackTwo = () => {
             </div>
           </div>
         </div>
+       
       </div>
-
       <div className="slider-wrapper">
         <Slider {...slider_setting} className="feedback-slider-two">
           {feed_back_two.map((f, i) => (
@@ -86,6 +86,7 @@ const FeedbackTwo = () => {
           ))}
         </Slider>
       </div>
+     
       <Image src={shape} alt="shape" className="lazy-img shapes shape_01" />
     </div>
   );

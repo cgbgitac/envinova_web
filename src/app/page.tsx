@@ -105,9 +105,7 @@ export default function HomePage() {
           {/* Conventional vs Our Products */}
           <ProjectDetailsThreeArea />
           <ClintLogo />
-
           <HomeTwoBlogs />
-
           {/* What Our Clients Say start */} 
           <FeedbackTwo />
           {/* What Our Clients Say end */}

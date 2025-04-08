@@ -40,19 +40,21 @@ const FooterOne = () => {
               </div> */}
                 {/* map end  */}
                 {/* <p className="text-white lh-sm mb-35">Top-rated <span className="opacity-50">business <br/> consultancy for your success</span></p> */}
-                <h4 className="text-white lh-sm mb-35">
-                  Head office <br /> <br />
-                  <span className="opacity-50 mt-2">
-                    Cabin -1, Plot E-313, Sector 75, Mohali 160055
-                  </span>
+                <h4 className="text-white lh-sm mb-2">
+                  Head office <br /> 
+               
                 </h4>
-                <h4 className="text-white lh-sm mb-35">
-                  Manufacturing Facility <br /> <br />
-                  <span className="opacity-50 mt-2">
-                    First Floor, Plot 53- 10 marla, Industrial Area Phase 2
-                    Chandigarh 160002
-                  </span>
+                <div className="opacity-50 mb-4 text-white">
+                Cabin -1, Plot E-313, Sector 75, Mohali 160055
+                </div>
+                <h4 className="text-white lh-sm mb-2">
+                  Manufacturing Facility <br />
+           
                 </h4>
+                <div className="opacity-50 mb-4 text-white">
+                First Floor, Plot 53- 10 marla, <br/>Industrial Area Phase 2
+                Chandigarh 160002 
+                  </div>
                 {/* <p className="text-white lh-sm mb-35 ">
                 <Link
                   href="mailto:info@pistar.tech"
@@ -76,22 +78,22 @@ const FooterOne = () => {
               </p> */}
               </div>
               <div className="col-xl-3 col-md-3 col-sm-4 mb-20">
-                <h5 className="footer-title">Solutions</h5>
+                <h5 className="footer-title">Products</h5>
                 <ul className="footer-nav-link style-none">
                   <li>
-                    <Link href="/">Product 1</Link>
+                    <Link href="products/smart-solar-spaces">Smart Solar Spaces</Link>
                   </li>
                   <li>
-                    <Link href="/product/podiascanner">Product 2</Link>
+                    <Link href="products/solar-ev-charging-stations">Solar EV Charging Stations</Link>
                   </li>
                   <li>
-                    <Link href="/product/footscan">Product 3</Link>
+                    <Link href="products/solar-prefab-cabins">Solar Prefab Cabins</Link>
                   </li>
                   <li>
-                    <Link href="/product/pressure-mat">Product 4</Link>
+                    <Link href="products/solar-conversion-solutions">Solar Conversion Solutions </Link>
                   </li>
                   <li>
-                    <Link href="/product/foot-pressure-mapping">Product 5</Link>
+                    <Link href="products/solar-rooftop">Solar Rooftop</Link>
                   </li>
                 </ul>
               </div>
@@ -116,7 +118,11 @@ const FooterOne = () => {
                 </ul>
               </div>
               <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
-                <h5 className="footer-title">Get In Touch</h5>
+                <h5 className="footer-title">
+                <Link href="contact">
+                Get In Touch
+                    </Link>
+                  </h5>
                 <ul className="footer-nav-link style-none">
                   <li>
                     <Link href="mailto:info@pistar.tech">
